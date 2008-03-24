@@ -1,0 +1,5 @@
+libnes (0.5-1) unstable; urgency=low
+
+  * Initial Release.  (Closes: #xxxxxx)
+
+ -- Roland Dreier <rolandd@cisco.com>  Mon, 24 Mar 2008 10:47:10 -0700

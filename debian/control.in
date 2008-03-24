@@ -1,0 +1,47 @@
+Source: libnes
+Priority: extra
+Maintainer: Roland Dreier <rolandd@cisco.com>
+Build-Depends: @cdbs@, libibverbs-dev (>= 1.1)
+Standards-Version: 3.7.3
+Section: libs
+Homepage: http://www.openfabrics.org/
+
+Package: libnes1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A userspace driver for NetEffect NE020-based iWARP adapters
+ libnes is a device-specific driver for NetEffect NE020-based iWARP
+ (RDMA over IP/ethernet) adapters for the libibverbs library.  This
+ allows userspace processes to access NetEffect iWARP hardware
+ directly with low latency and low overhead.
+ .
+ This package contains the loadable plug-in.
+
+Package: libnes-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libnes1 (= ${binary:Version})
+Description: Development files for the libnes driver
+ libnes is a device-specific driver for NetEffect NE020-based iWARP
+ (RDMA over IP/ethernet) adapters for the libibverbs library.  This
+ allows userspace processes to access NetEffect iWARP hardware
+ directly with low latency and low overhead.
+ .
+ This package contains static versions of libnes that may be linked
+ directly to an application, which may be useful for debugging.
+
+Package: libnes1-dbg
+Section: libdevel
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, libnes1 (= ${binary:Version})
+Description: Debugging symbols for the libnes driver
+ libnes is a device-specific driver for NetEffect NE020-based iWARP
+ (RDMA over IP/ethernet) adapters for the libibverbs library.  This
+ allows userspace processes to access NetEffect iWARP hardware
+ directly with low latency and low overhead.
+ .
+ This package contains the debugging symbols associated with
+ libnes1. They will automatically be used by gdb for debugging
+ libnes-related issues.
