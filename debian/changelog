@@ -1,3 +1,10 @@
+libnes (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to dpkg-source 3.0 (quilt) format.
+
+ -- Roland Dreier <roland@digitalvampire.org>  Tue, 26 Apr 2011 12:37:40 -0700
+
 libnes (1.0.1-1) unstable; urgency=low
 
   * Initial Release.  (Closes: #xxxxxx)
