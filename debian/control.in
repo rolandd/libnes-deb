@@ -1,6 +1,7 @@
 Source: libnes
 Priority: extra
-Maintainer: Roland Dreier <rolandd@cisco.com>
+Maintainer: Roland Dreier <roland@digitalvampire.org>
+DM-Upload-Allowed: yes
 Build-Depends: @cdbs@, libibverbs-dev (>= 1.1)
 Standards-Version: 3.8.2
 Section: libs
