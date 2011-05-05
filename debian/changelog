@@ -2,8 +2,9 @@ libnes (1.1.1-1) unstable; urgency=low
 
   * New upstream release.
   * Switch to dpkg-source 3.0 (quilt) format.
+  * Change build system from cdbs to debhelper 7.
 
- -- Roland Dreier <roland@digitalvampire.org>  Tue, 26 Apr 2011 12:37:40 -0700
+ -- Roland Dreier <roland@digitalvampire.org>  Mon, 02 May 2011 22:30:13 -0700
 
 libnes (1.0.1-1) unstable; urgency=low
 
