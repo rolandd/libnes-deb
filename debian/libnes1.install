@@ -1,2 +1,2 @@
-usr/lib/libnes-rdmav2.so
+usr/lib/libnes-rdmav2.so		/usr/lib/libibverbs/
 etc/libibverbs.d/nes.driver
