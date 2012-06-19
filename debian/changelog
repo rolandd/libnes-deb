@@ -1,5 +1,5 @@
-libnes (1.1.1-1) unstable; urgency=low
+libnes (1.1.3-1) unstable; urgency=low
 
-  * Initial Release.  (Closes: #xxxxxx)
+  * Initial Release.  (Closes: #678128)
 
- -- Roland Dreier <roland@digitalvampire.org>  Mon, 02 May 2011 22:30:13 -0700
+ -- Roland Dreier <rbd@debian.org>  Tue, 19 Jun 2012 05:45:18 -0700
